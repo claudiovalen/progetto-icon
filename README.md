@@ -10,14 +10,23 @@ Il caso di studio mira ad aiutare le filiere produttive di vino nella determinaz
 
 # Informazioni
 Progetto realizzato per l'esame di ingegneria della conoscenza dell'Univerità degli studi di Bari Aldo Moro, corso di Informatica.
+
 Nella cartella dataset è presente il dataset utilizzato, nella cartella img le immagini presenti nella documentazione, nella cartella Wine Project i file .py:
+
 -main contiene gli algoritmi di predizione
+
 -analysis contiene il codice relativo alla produzione di grafici statistici sui dati e sui risultati degli algoritmi utilizzati
+
 -createKB contiene la creazione della base di conoscenza
+
 -query_KB contiene le query per la KB
+
 -interface contiene il menù d'introduzione
+
 -inserimento_vino contiene l'interfaccia grafica per la predizione della qualità del vino
+
 -ricerca vino contiene l'interfaccia grafica per la ricerca del vino
+
 Nella cartella kb i file della KB per l'identificazione di malattie.
 
 # Strumenti utilizzati
