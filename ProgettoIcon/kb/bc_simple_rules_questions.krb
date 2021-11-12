@@ -1,0 +1,147 @@
+# bc_simple_rules.krb
+
+what_malattia_Oidio
+    use quale_malattia(Oidio)
+    when
+        questions.scelta_malattia($ans)
+        check $ans in (1,)
+        questions.clima_umido(True)
+        questions.vedi_colore_grappoli(True)
+        questions.colore_grappoli($ans2)
+        check $ans2 in (2,)
+        questions.acini_spaccati(True)
+
+what_malattia_Flavescenza_Dorata
+    use quale_malattia(Flavescenza_Dorata)
+    when
+        questions.scelta_malattia($ans)
+        check $ans in (1,)
+        questions.clima_umido(False)
+        questions.vedi_colore_grappoli(True)
+        questions.colore_grappoli($ans2)
+        check $ans2 in (1,)
+        questions.tralci_gommosi(True)
+
+what_malattia_Botrite
+    use quale_malattia(Botrite)
+    when
+        questions.scelta_malattia($ans)
+        check $ans in (1,)
+        questions.clima_umido(True)
+        questions.vedi_colore_grappoli(True)
+        questions.colore_grappoli($ans2)
+        check $ans2 in (2,)
+        questions.acini_spaccati(False)
+        questions.grappoli_caduti(True)
+
+what_malattia_Peronospora
+    use quale_malattia(Peronospora)
+    when
+        questions.scelta_malattia($ans)
+        check $ans in (1,)
+        questions.clima_umido(False)
+        questions.vedi_colore_grappoli(False)
+        questions.vedi_colore_foglie(True)
+        questions.colore_foglie($ans2)
+        check $ans2 in (1,)
+        questions.muffa_bianca(True)
+
+what_malattia_Mal_dell_esca
+    use quale_malattia(Mal_dell_esca)
+    when
+        questions.scelta_malattia($ans)
+        check $ans in (1,)
+        questions.clima_umido(False)
+        questions.vedi_colore_grappoli(False)
+        questions.vedi_colore_foglie(True)
+        questions.colore_foglie($ans2)
+        check $ans2 in (2,)
+        questions.spaccature_longitudinali(True)
+
+what_malattia_Marciume_acido
+    use quale_malattia(Marciume_acido)
+    when
+        questions.scelta_malattia($ans)
+        check $ans in (1,)
+        questions.clima_umido(True)
+        questions.vedi_colore_grappoli(True)
+        questions.colore_grappoli($ans2)
+        check $ans2 in (2,)
+        questions.acini_spaccati(False)
+        questions.grappoli_caduti(False)
+        questions.odore_aceto(True)
+
+
+what_malattia_Arricciamento_vite
+    use quale_malattia(Arricciamento_vite)
+    when
+        questions.scelta_malattia($ans)
+        check $ans in (1,)
+        questions.clima_umido(False)
+        questions.vedi_colore_grappoli(False)
+        questions.vedi_colore_foglie(False)
+        questions.crescita_zigzagante(True)
+
+what_malattia_fioretta
+    use quale_malattia(fioretta)
+    when
+        questions.scelta_malattia($ans)
+        check $ans in (2,)
+        questions.vino_opaco(True)
+        questions.velo_chiaro(True)
+
+what_malattia_spunto
+    use quale_malattia(spunto)
+    when
+        questions.scelta_malattia($ans)
+        check $ans in (2,)
+        questions.vino_opaco(False)
+        questions.gusto_aceto(True)
+        questions.quanto_aceto($ans2)
+        check $ans2 in (1,)
+
+what_malattia_acescenza
+    use quale_malattia(acescenza)
+    when
+        questions.scelta_malattia($ans)
+        check $ans in (2,)
+        questions.vino_opaco(False)
+        questions.gusto_aceto(True)
+        questions.quanto_aceto($ans2)
+        check $ans2 in (2,)
+
+what_malattia_girato
+    use quale_malattia(girato)
+    when
+        questions.scelta_malattia($ans)
+        check $ans in (2,)
+        questions.vino_opaco(True)
+        questions.velo_chiaro(False)
+        questions.torbido_smorto(True)
+        questions.tipo_vino($ans2)
+        check $ans2 in (1,)
+        questions.vino_amaro(False)
+
+
+what_malattia_filante
+    use quale_malattia(filante)
+    when
+        questions.scelta_malattia($ans)
+        check $ans in (2,)
+        questions.vino_opaco(True)
+        questions.velo_chiaro(False)
+        questions.torbido_smorto(True)
+        questions.tipo_vino($ans2)
+        check $ans2 in (2,)
+
+what_malattia_amarore
+    use quale_malattia(amarore)
+    when
+        questions.scelta_malattia($ans)
+        check $ans in (2,)
+        questions.vino_opaco(True)
+        questions.velo_chiaro(False)
+        questions.torbido_smorto(True)
+        questions.tipo_vino($ans2)
+        check $ans2 in (1,)
+        questions.vino_amaro(True)

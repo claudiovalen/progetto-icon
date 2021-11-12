@@ -1,0 +1,117 @@
+# questions.kqb
+
+scelta_malattia($ans)
+	La malattia riguarda l'uva o il vino?
+	---
+	$ans = select_1
+		1: Uva
+		2: Vino
+
+
+clima_umido($ans)
+	Il clima e' umido?
+	---
+	$ans=yn
+
+colore_grappoli($ans)
+	Quale colore hanno i grappoli?
+	---
+	$ans = select_1
+		1: Dorato
+		2: Grigiastro
+
+acini_spaccati($ans)
+	 Gli acini si spaccano?
+	---
+	$ans=yn
+
+grappoli_caduti($ans)
+	 Noti la caduta di molti grappoli?
+	---
+	$ans=yn
+
+vedi_colore_grappoli($ans)
+	 Noti un colore insolito nei grappoli?
+	---
+	$ans=yn
+
+vedi_colore_foglie($ans)
+	 Noti delle macchie sulle foglie?
+	---
+	$ans=yn
+
+colore_foglie($ans)
+	 Quale colore hanno le macchie sulle foglie?
+	---
+	$ans = select_1
+		1: Dorato
+		2: Giallo/Rosso
+
+muffa_bianca($ans)
+	Vedi della muffa bianca sulla pagina inferiore delle foglie?
+	---
+	$ans=yn
+
+tralci_gommosi($ans)
+	 I tralci infetti appaiono di consistenza gommosa e tendono a piegarsi verso il basso?
+
+	---
+	$ans=yn
+
+spaccature_longitudinali($ans)
+    Vedi delle ampie spaccature longitudinali al tronco?
+
+	---
+	$ans=yn
+
+odore_aceto($ans)
+    I grappoli emanano un odore di aceto?
+
+	---
+	$ans=yn
+
+crescita_zigzagante($ans)
+    Noti una crescita zigzagante nei germogli?
+
+	---
+	$ans=yn
+
+vino_opaco($ans)
+	Il vino risulta opaco?
+	---
+	$ans=yn
+
+velo_chiaro($ans)
+    Noti sulla superficie un velo chiaro?
+	---
+	$ans=yn
+
+gusto_aceto($ans)
+    Il vino presenta un gusto d'aceto?
+	---
+	$ans=yn
+
+quanto_aceto($ans)
+	Quanto percettibile e' il sapore di aceto?
+	---
+	$ans = select_1
+		1: Leggero
+		2: Intenso (vino imbevibile)
+
+torbido_smorto($ans)
+    Il vino sembra torbido e dal colore smorto ?
+	---
+	$ans=yn
+
+tipo_vino($ans)
+	Di che tipo e' il vino?
+	---
+	$ans = select_1
+		1: Rosso
+		2: Bianco
+
+
+vino_amaro($ans)
+    Il vino presenta una nota spiccatamente amara?
+	---
+	$ans=yn
